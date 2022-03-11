@@ -1,0 +1,11 @@
+$11914 lines loaded
+The rmse value of predicted MSRP and actual MSRP of validation set is  0.761653099130156
+The rmse value of predicted MSRP and actual MSRP of test set is  0.7359130757318697
+Let us print out first 5 cars in our Validation Set's original msrp vs. predicted msrp
+|       |   engine_cylinders | transmission_type   | driven_wheels     |   number_of_doors | market_category   | vehicle_size   | vehicle_style       |   highway_mpg |   city_mpg |   popularity |   msrp |   msrp_pred |
+|------:|-------------------:|:--------------------|:------------------|------------------:|:------------------|:---------------|:--------------------|--------------:|-----------:|-------------:|-------:|------------:|
+|  2779 |                  4 | automatic           | four_wheel_drive  |                 4 | nan               | compact        | extended_cab_pickup |            25 |         19 |         1385 |  26885 |     19203.1 |
+|  3708 |                  4 | automatic           | all_wheel_drive   |                 4 | luxury            | midsize        | sedan               |            29 |         22 |          617 |  54650 |     31891.8 |
+|  4794 |                  4 | manual              | front_wheel_drive |                 4 | flex_fuel         | compact        | sedan               |            36 |         26 |         5657 |  16775 |     16295.1 |
+| 10498 |                  6 | automatic           | front_wheel_drive |                 4 | luxury            | midsize        | sedan               |            34 |         21 |          204 |  42600 |     39663.6 |
+|  1880 |                  4 | automatic           | front_wheel_drive |                 2 | nan               | compact        | convertible         |            34 |         25 |          873 |  25995 |     17950.4 | 
